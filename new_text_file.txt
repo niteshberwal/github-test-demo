@@ -1,0 +1,4 @@
+This answer defeats the security of SSL by permitting man-in-the-middle attacks. Other answers already explain how to configure git to trust the specific certificate you need. – dsh Dec 4 '15 at 15:37
+12
+horrible answer indeed, you don't even tell them to turn SSL back on. This is why security vulnerabilities happen. – Edgar Aroutiounian Feb 2 '16 at 23:22
+If you are using Gitblit then no other option instead of doing sshVerify false. – Samir M
